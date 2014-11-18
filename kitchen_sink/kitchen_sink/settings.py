@@ -36,6 +36,13 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Publica
+    'entropy',
+    'templates',
+    'menus',
+    'pages',
+    'posts',
 )
 
 MIDDLEWARE_CLASSES = (
