@@ -21,13 +21,23 @@ The full documentation is at https://django-publica-kitchen-sink.readthedocs.org
 Quickstart
 ----------
 
-Install django-publica-kitchen-sink::
+Clone django-publica-kitchen-sink::
 
-    pip install django-publica-kitchen-sink
+    git clone https://github.com/publica-io/django-publica-kitchen-sink.git
 
-Then use it in a project::
+Install requirements::
 
-    import django-publica-kitchen-sink
+    cd django-publica-kitchen-sink
+    pip install -r requirements.txt
+
+Migrate the database::
+
+    cd kitchen_sink
+    ./mange.py migrate
+
+Run the server::
+
+    ./manage.py runserver
 
 Features
 --------

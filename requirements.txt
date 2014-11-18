@@ -1,3 +1,9 @@
 django>=1.5.1
 wheel==0.24.0
 # Additional requirements go here
+
+-e git://github.com/publica-io/django-entropy.git#egg=django-entropy
+-e git://github.com/publica-io/django-publica-templates.git#egg=django-publica-templates
+-e git+git@github.com:publica-io/django-publica-menus.git#egg=django-publica-menus
+-e git+git@github.com:publica-io/django-publica-pages.git#egg=django-publica-pages
+-e git+git@github.com:publica-io/django-publica-posts.git#egg=django-publica-posts
